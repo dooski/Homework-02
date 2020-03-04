@@ -1,0 +1,30 @@
+.wrapper {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+/* tablets*/
+@media screen and (max-width: 768px){
+
+.wrapper {
+    width: 700px;
+    margin: 20px auto;
+    background-color: aqua;
+}
+
+
+#size {
+    column-width: auto
+}
+}
+/*phones*/
+@media screen and (max-width: 600px) {
+
+    .wrapper {
+        width: 550px;
+        background-color: red;
+    }
+}
+
+
+/*FOR TESTING: AQUA = TABLET; RED = PHONE */
