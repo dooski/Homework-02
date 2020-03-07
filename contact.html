@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/index.css">
 
     <title>CONTACT</title>
 </head>
@@ -42,7 +43,43 @@
             </form>
         </div>
     </nav>
-    <h1>Hello, world!</h1>
+
+    <div class="container">
+        <div class="wrapper">
+            <div class="row">
+                <h1>
+                    Contact
+                </h1>
+            </div>
+            <div class="row">
+                <p>
+                    Please use the following form to get in contact concerning any inquiries you may have.
+                    Alternatively,
+                    you can send an email directly to dmckeon495@gmail
+                </p>
+            </div>
+            <!-- form structure taken from Bootstrap website and modified -->
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp"
+                        placeholder="someone@somewhere.com">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleSubject">Subject</label>
+                    <input type="subject" class="form-control" placeholder="RE: You're awesome!">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
