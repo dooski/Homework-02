@@ -12,10 +12,6 @@
     background-color: aqua;
 }
 
-
-#size {
-    column-width: auto
-}
 }
 /*phones*/
 @media screen and (max-width: 600px) {
